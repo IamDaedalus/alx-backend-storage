@@ -1,0 +1,2 @@
+// deletes all documents that match name="Holberton school"
+db.school.deleteOne({ name: "Holberton school" })
